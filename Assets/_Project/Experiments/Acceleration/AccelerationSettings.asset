@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086d684e10f59d34789ab9a591b7f0cd, type: 3}
+  m_Name: AccelerationSettings
+  m_EditorClassIdentifier: Assembly-CSharp::EmbodiedPhysicsLab.Core.Acceleration.AccelerationExperimentSettings
+  cartBaseMass: 0.5
+  cartWeightMass: 0.1
+  bucketBaseMass: 0.05
+  bucketWeightMass: 0.05
+  maxCartWeights: 6
+  maxBucketWeights: 6
+  defaultCartWeights: 0
+  defaultBucketWeights: 0
+  anglesDegrees:
+  - 0
+  - 2
+  - 4
+  frictionCoefficients:
+  - 0
+  - 0.02
+  - 0.05
+  defaultAngleIndex: 0
+  defaultFrictionIndex: 0
+  gravity: 9.81
+  sampleInterval: 0.02
+  trackPivotHeight: 1.18
+  pulleyDistance: 3.35
+  pulleyHeight: 0.22
+  cartStartDistance: 0.35
+  maximumCartTravel: 2.5
+  maximumBucketDrop: 0.8
+  minimumBucketCenterHeight: 0.25
+  bucketSuspensionGap: 0.26

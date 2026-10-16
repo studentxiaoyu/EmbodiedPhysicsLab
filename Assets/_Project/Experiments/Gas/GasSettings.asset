@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d40796b8eb7335649bb2fd7d385aedb1, type: 3}
+  m_Name: GasSettings
+  m_EditorClassIdentifier: Assembly-CSharp::EmbodiedPhysicsLab.Core.Gas.GasExperimentSettings
+  volumeLiters:
+  - 1
+  - 1.2
+  - 1.5
+  - 1.8
+  - 2
+  amountOfSubstance: 0.0001
+  gasConstant: 8.314
+  defaultTemperature: 300
+  targetTemperature: 300
+  heatingRate: 12
+  coolingRate: 12
+  holdConvergenceRate: 1.8
+  volumeDisturbanceExponent: 0.12
+  recordToleranceKelvin: 1
+  stableDwellSeconds: 0.7
+  minimumDistinctVolumes: 4
+  pistonMinY: 0.3
+  pistonMaxY: 1.34
+  cylinderBottomY: 0.2
+  cylinderRadius: 0.48

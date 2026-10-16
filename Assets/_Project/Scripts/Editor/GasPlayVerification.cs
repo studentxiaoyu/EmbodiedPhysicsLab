@@ -1,0 +1,1 @@
+namespace EmbodiedPhysicsLab.Editor { public static class GasPlayVerification { public static void Run() => GasPhysicalVerification.Run(); } }
